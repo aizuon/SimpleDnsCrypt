@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
-  <Product Id="*" Name="SimpleDNSCrypt.insc" Language="1033" Version="0.8.0" Manufacturer="instant.sc"
+  <Product Id="*" Name="SimpleDNSCrypt.aizuon" Language="1033" Version="0.8.1" Manufacturer="aizuon"
            UpgradeCode="b561df39-7e27-44e4-978d-22df6eea11b4">
     <Package InstallerVersion="200" Compressed="yes" InstallScope="perMachine" Platform="x64" />
     <MediaTemplate EmbedCab="yes" />
@@ -40,12 +40,12 @@
                   Target="[#fil12E9E5B12E65A378DD9B7308CCDA334E]"
                   WorkingDirectory="INSTALLFOLDER"/>
             <RemoveFolder Id="CleanUpShortCut" Directory="ApplicationProgramsFolder" On="uninstall"/>
-            <RegistryValue Root="HKCU" Key="Software\instantsc\SimpleDNSCrypt" Name="installed" Type="integer" Value="1" KeyPath="yes"/>
+            <RegistryValue Root="HKCU" Key="Software\aizuon\SimpleDNSCrypt" Name="installed" Type="integer" Value="1" KeyPath="yes"/>
           </Component>
         </Directory>
       </Directory>
       <Component Id="Registry" Guid="161bb76a-8604-425b-8bd7-eeafb47c8cca">
-        <!--<RegistryKey Root="HKLM" Key="Software\instantsc\SimpleDNSCrypt">
+        <!--<RegistryKey Root="HKLM" Key="Software\aizuon\SimpleDNSCrypt">
           <RegistryValue Type="string" Name="InstallDir" Value="[INSTALLFOLDER]" />
         </RegistryKey>-->
       </Component>

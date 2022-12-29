@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform>x64</Platform>
-    <ProductVersion>3.10</ProductVersion>
+    <ProductVersion>3.11</ProductVersion>
     <ProjectGuid>b2c887e0-6f49-4ce9-bf0a-f87873da80b9</ProjectGuid>
     <SchemaVersion>2.0</SchemaVersion>
     <OutputName>SimpleDnsCrypt</OutputName>

@@ -1,7 +1,7 @@
-[![license](https://img.shields.io/github/license/instantsc/SimpleDnsCrypt.svg?style=flat-square)](https://github.com/instantsc/SimpleDnsCrypt/blob/master/LICENSE.md) 
-[![Github All Releases](https://img.shields.io/github/release/instantsc/SimpleDnsCrypt.svg?style=flat-square&include_prereleases)](https://github.com/instantsc/SimpleDnsCrypt/releases/latest) 
+[![license](https://img.shields.io/github/license/aizuon/SimpleDnsCrypt.svg?style=flat-square)](https://github.com/aizuon/SimpleDnsCrypt/blob/master/LICENSE.md) 
+[![Github All Releases](https://img.shields.io/github/release/aizuon/SimpleDnsCrypt.svg?style=flat-square&include_prereleases)](https://github.com/aizuon/SimpleDnsCrypt/releases/latest) 
 [![dnscrypt--proxy](https://img.shields.io/badge/dnscrypt--proxy-2.1.2-orange.svg?style=flat-square)](https://github.com/jedisct1/dnscrypt-proxy) 
-[![Github All Releases](https://img.shields.io/github/downloads/instantsc/SimpleDnsCrypt/total.svg?style=flat-square)](https://github.com/instantsc/SimpleDnsCrypt/releases/latest) 
+[![Github All Releases](https://img.shields.io/github/downloads/aizuon/SimpleDnsCrypt/total.svg?style=flat-square)](https://github.com/aizuon/SimpleDnsCrypt/releases/latest) 
 
 
 # ![Simple DNSCrypt Logo](img/logo_with_text.png)
@@ -26,11 +26,11 @@ Uses dnscrypt-proxy: **2.1.2**
 
 ### Prerequisites
 
-Windows 10 LTSC 1809 is tested(-ish) to work, other users are welcome to test and report other Windows versions.
+Windows 11 is tested(-ish) to work, other users are welcome to test and report other Windows versions.
 
 ### Installing
 
-To install Simple DNSCrypt use the [MSI package](https://github.com/instantsc/SimpleDnsCrypt/releases/download/0.7.2-beta2/SimpleDNSCrypt.msi).
+To install Simple DNSCrypt use the [MSI package](https://github.com/aizuon/SimpleDnsCrypt/releases/download/0.8.1/SimpleDNSCrypt.msi).
 
 ### Deinstallation
 
@@ -64,13 +64,14 @@ For now, the only update option is to download and install the newest version ma
 ## Built With
 
 * [Visual Studio 2022](https://www.visualstudio.com/downloads/)
-* [.NET 6](https://dotnet.microsoft.com/download/dotnet)
+* [.NET](https://dotnet.microsoft.com/download/dotnet)
 * [WiX](https://wixtoolset.org/)
 
 ## Authors
 
 * **Christian Hermann** - [bitbeans](https://github.com/bitbeans)
 * [**instant.sc**](https://github.com/instantsc)
+* [**aizuon**](https://github.com/aizuon)
 
 See also the list of [Contributors.md](Contributors.md) who participated in this project. 
 If you are a translator, feel free to update this file.
