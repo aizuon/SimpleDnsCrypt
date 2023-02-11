@@ -683,13 +683,13 @@
   <data name="configure_routes_unknown" xml:space="preserve">
     <value>Rotayı değiştir (bilinmeyen durum)</value>
   </data>
-  <data name="advanced_settings_manage_fallback_resolvers" xml:space="preserve">
+  <data name="advanced_settings_manage_bootstrap_resolvers" xml:space="preserve">
     <value>yedek çözücüleri yönetme</value>
   </data>
-  <data name="advanced_settings_fallback_resolvers" xml:space="preserve">
+  <data name="advanced_settings_bootstrap_resolvers" xml:space="preserve">
     <value>Yedek Çözücüler</value>
   </data>
-  <data name="advanced_settings_fallback_resolvers_content" xml:space="preserve">
+  <data name="advanced_settings_bootstrap_resolvers_content" xml:space="preserve">
     <value>Bunlar normal, şifrelenmemiş DNS çözücüleridir; bunlar yalnızca ilk çözümleyiciler listesi alınırken tek seferlik sorgular için ve yalnızca sistem DNS yapılandırması çalışmazsa kullanılır. Bu çözümleyicilerden hiçbir kullanıcı uygulaması sorgusu sızdırılmaz ve çözümleyici URL&apos;lerinin IP adresleri bulunduktan sonra kullanılmaz. Listeler önceden önbelleğe alınmışsa ve damgalar IP adresleri olmayan ana bilgisayar adlarını içermiyorsa asla kullanılmazlar. Yapılandırılan sistem DNS çalışırsa kullanılmazlar. DNSSEC&apos;yi destekleyen çözümleyiciler önerilir. Çin&apos;deki insanların burada 114.114.114.114:53 kullanmaları gerekebilir. Birden fazla çözümleyici belirtilirse, sırayla denenir.</value>
   </data>
 </root>

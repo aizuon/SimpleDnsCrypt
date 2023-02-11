@@ -563,11 +563,11 @@ namespace SimpleDnsCrypt.ViewModels
                 }
             }
 
-            if (DnscryptProxyConfiguration?.fallback_resolvers != null)
+            if (DnscryptProxyConfiguration?.bootstrap_resolvers != null)
             {
-                if (DnscryptProxyConfiguration.fallback_resolvers.Count > 0)
+                if (DnscryptProxyConfiguration.bootstrap_resolvers.Count > 0)
                 {
-                    FallbackResolvers = DnscryptProxyConfiguration.fallback_resolvers;
+                    FallbackResolvers = DnscryptProxyConfiguration.bootstrap_resolvers;
                 }
             }
 
@@ -766,8 +766,8 @@ namespace SimpleDnsCrypt.ViewModels
             dynamic settings = new ExpandoObject();
             settings.WindowStartupLocation = WindowStartupLocation.CenterOwner;
             var oldAddressed = new List<string>(DnscryptProxyConfiguration.listen_addresses);
-            FallbackResolversViewModel.FallbackResolvers = DnscryptProxyConfiguration.fallback_resolvers;
-            FallbackResolversViewModel.WindowTitle = LocalizationEx.GetUiString("advanced_settings_fallback_resolvers", Thread.CurrentThread.CurrentCulture);
+            FallbackResolversViewModel.FallbackResolvers = DnscryptProxyConfiguration.bootstrap_resolvers;
+            FallbackResolversViewModel.WindowTitle = LocalizationEx.GetUiString("advanced_settings_bootstrap_resolvers", Thread.CurrentThread.CurrentCulture);
             var result = _windowManager.ShowDialogAsync(FallbackResolversViewModel, null, settings).Result;
             if (!result)
             {
@@ -776,7 +776,7 @@ namespace SimpleDnsCrypt.ViewModels
                 var a = FallbackResolversViewModel.FallbackResolvers.Except(oldAddressed).ToList();
                 var b = oldAddressed.Except(FallbackResolversViewModel.FallbackResolvers).ToList();
                 if (!a.Any() && !b.Any()) return;
-                DnscryptProxyConfiguration.fallback_resolvers = FallbackResolversViewModel.FallbackResolvers;
+                DnscryptProxyConfiguration.bootstrap_resolvers = FallbackResolversViewModel.FallbackResolvers;
                 SaveAdvancedSettings();
             }
         }
@@ -1356,7 +1356,7 @@ namespace SimpleDnsCrypt.ViewModels
                     }
                 }
             }
-            DnscryptProxyConfiguration.fallback_resolvers = validatedFallbackResolvers;
+            DnscryptProxyConfiguration.bootstrap_resolvers = validatedFallbackResolvers;
         }
 
         private sealed record WorkingOnService :IDisposable

@@ -682,13 +682,13 @@
   <data name="configure_routes_unknown" xml:space="preserve">
     <value>Измените маршрут (неизвестный статус)</value>
   </data>
-  <data name="advanced_settings_manage_fallback_resolvers" xml:space="preserve">
+  <data name="advanced_settings_manage_bootstrap_resolvers" xml:space="preserve">
     <value>резервные резольверы</value>
   </data>
-  <data name="advanced_settings_fallback_resolvers" xml:space="preserve">
+  <data name="advanced_settings_bootstrap_resolvers" xml:space="preserve">
     <value>Резервные резольверы</value>
   </data>
-  <data name="advanced_settings_fallback_resolvers_content" xml:space="preserve">
+  <data name="advanced_settings_bootstrap_resolvers_content" xml:space="preserve">
     <value>Это обычные, не зашифрованные DNS-резольверы, которые будут использоваться одноразово при получении начального списка и только в случае, если DNS системы не работает. Они не будут использоваться после: нахождения IP URL-адресов резольверов, если списки уже кэшированы, IP имен хостов известны или работает системный DNS. Для других программ эти резольверы всегда недоступны. Рекомендуется использовать резольверы с поддержкой DNSSEC. В Китае, возможно, придется использовать 114.114.114.114:53. Если указано более одного резольвера, то они будут опробованы последовательно.</value>
   </data>
 </root>

@@ -873,7 +873,3 @@ skip_incompatible = false
 
   # [static.myserver]
   #   stamp = 'sdns://AQcAAAAAAAAAAAAQMi5kbnNjcnlwdC1jZXJ0Lg'
-
-## Custom, added by Dorq
-
-fallback_resolvers = ['1.1.1.1:53', '8.8.8.8:53']

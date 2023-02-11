@@ -55,7 +55,7 @@ namespace SimpleDnsCrypt.Models
         private int _cache_min_ttl;
         private int _cache_size;
         private bool _cache;
-        private ObservableCollection<string> _fallback_resolvers;
+        private ObservableCollection<string> _boostrap_resolvers;
         private bool _ignore_system_dns;
         private Dictionary<string, Static> _static;
         private string _proxy;
@@ -510,13 +510,13 @@ namespace SimpleDnsCrypt.Models
         /// 	
         /// 	If more than one resolver is specified, they will be tried in sequence.
         /// </summary>
-        public ObservableCollection<string> fallback_resolvers
+        public ObservableCollection<string> bootstrap_resolvers
         {
-            get => _fallback_resolvers;
+            get => _boostrap_resolvers;
             set
             {
-                _fallback_resolvers = value;
-                NotifyOfPropertyChange(() => fallback_resolvers);
+                _boostrap_resolvers = value;
+                NotifyOfPropertyChange(() => bootstrap_resolvers);
             }
         }
 
