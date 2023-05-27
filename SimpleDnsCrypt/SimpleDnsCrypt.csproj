@@ -5,9 +5,9 @@
     <AssemblyTitle>Simple DnsCrypt</AssemblyTitle>
     <Product>Simple DnsCrypt</Product>
     <Description>Simple management tool for dnscrypt-proxy</Description>
-    <Copyright>Copyright © 2015 - 2020 Christian Hermann, 2021 - 2022 instant.sc, 2022 - 2022 aizuon</Copyright>
-    <AssemblyVersion>0.8.4</AssemblyVersion>
-    <FileVersion>0.8.4</FileVersion>
+    <Copyright>Copyright © 2015 - 2020 Christian Hermann, 2021 - 2022 instant.sc, 2022 - 2023 aizuon</Copyright>
+    <AssemblyVersion>0.8.5</AssemblyVersion>
+    <FileVersion>0.8.5</FileVersion>
     <OutputPath>bin\$(Platform)\$(Configuration)\</OutputPath>
     <UseWPF>true</UseWPF>
     <ApplicationIcon>Images\simplednscrypt.ico</ApplicationIcon>
@@ -58,15 +58,15 @@
     <PackageReference Include="MahApps.Metro.IconPacks.Material" Version="4.11.0" />
     <PackageReference Include="MahApps.Metro.SimpleChildWindow" Version="2.2.1" />
     <PackageReference Include="Nett" Version="0.15.0" />
-    <PackageReference Include="Newtonsoft.Json" Version="13.0.2" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
     <PackageReference Include="Nito.AsyncEx" Version="5.1.2" />
-    <PackageReference Include="NLog" Version="5.1.1" />
-    <PackageReference Include="ReactiveProperty" Version="9.0.0" />
-    <PackageReference Include="ReactiveUI.WPF" Version="18.4.20" />
+    <PackageReference Include="NLog" Version="5.1.5" />
+    <PackageReference Include="ReactiveProperty" Version="9.1.2" />
+    <PackageReference Include="ReactiveUI.WPF" Version="18.4.44" />
     <PackageReference Include="System.ComponentModel.Composition" Version="7.0.0" />
     <PackageReference Include="System.ServiceProcess.ServiceController" Version="7.0.0" />
-    <PackageReference Include="WPFLocalizeExtension" Version="3.9.4" />
-    <PackageReference Include="YamlDotNet" Version="13.0.0" />
+    <PackageReference Include="WPFLocalizeExtension" Version="3.10.0" />
+    <PackageReference Include="YamlDotNet" Version="13.1.0" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\SimpleDnsCrypt.Utils\SimpleDnsCrypt.Utils.csproj" />
