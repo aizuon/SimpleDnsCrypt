@@ -1,8 +1,7 @@
 [![license](https://img.shields.io/github/license/aizuon/SimpleDnsCrypt.svg?style=flat-square)](https://github.com/aizuon/SimpleDnsCrypt/blob/master/LICENSE.md) 
 [![Github All Releases](https://img.shields.io/github/release/aizuon/SimpleDnsCrypt.svg?style=flat-square&include_prereleases)](https://github.com/aizuon/SimpleDnsCrypt/releases/latest) 
-[![dnscrypt--proxy](https://img.shields.io/badge/dnscrypt--proxy-2.1.2-orange.svg?style=flat-square)](https://github.com/jedisct1/dnscrypt-proxy) 
+[![dnscrypt--proxy](https://img.shields.io/badge/dnscrypt--proxy-2.1.4-orange.svg?style=flat-square)](https://github.com/jedisct1/dnscrypt-proxy) 
 [![Github All Releases](https://img.shields.io/github/downloads/aizuon/SimpleDnsCrypt/total.svg?style=flat-square)](https://github.com/aizuon/SimpleDnsCrypt/releases/latest) 
-
 
 # ![Simple DNSCrypt Logo](img/logo_with_text.png)
 
@@ -18,11 +17,9 @@ Simple DNSCrypt is a simple management tool to configure [dnscrypt-proxy](https:
 
 ## Status
 
-Uses dnscrypt-proxy: **2.1.2**
-
+Uses dnscrypt-proxy: **2.1.4**
 
 ## Getting Started
-
 
 ### Prerequisites
 
@@ -30,7 +27,7 @@ Windows 11 is tested(-ish) to work, other users are welcome to test and report o
 
 ### Installing
 
-To install Simple DNSCrypt use the [MSI package](https://github.com/aizuon/SimpleDnsCrypt/releases/download/0.8.1/SimpleDNSCrypt.msi).
+To install Simple DNSCrypt use the [MSI package](https://github.com/aizuon/SimpleDnsCrypt/releases/download/0.8.4/SimpleDNSCrypt.msi).
 
 ### Deinstallation
 
@@ -60,10 +57,9 @@ For now, the only update option is to download and install the newest version ma
 ![settings](img/preview/settings.png)
 </details>
 
-
 ## Built With
 
-* [Visual Studio 2022](https://www.visualstudio.com/downloads/)
+* [Visual Studio](https://www.visualstudio.com/downloads/)
 * [.NET](https://dotnet.microsoft.com/download/dotnet)
 * [WiX](https://wixtoolset.org/)
 
@@ -93,7 +89,6 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 - [notifyicon-wpf](https://bitbucket.org/hardcodet/notifyicon-wpf/src)
 - [WPFLocalizationExtension](https://github.com/SeriousM/WPFLocalizationExtension)
 - [YamlDotNet](https://github.com/aaubry/YamlDotNet)
-
 
 ## Thanks to
 
