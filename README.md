@@ -27,7 +27,7 @@ Windows 11 is tested(-ish) to work, other users are welcome to test and report o
 
 ### Installing
 
-To install Simple DNSCrypt use the [MSI package](https://github.com/aizuon/SimpleDnsCrypt/releases/download/0.8.4/SimpleDNSCrypt.msi).
+To install Simple DNSCrypt use the [MSI package](https://github.com/aizuon/SimpleDnsCrypt/releases/download/0.8.5/SimpleDNSCrypt.msi).
 
 ### Deinstallation
 
